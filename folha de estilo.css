@@ -1,0 +1,457 @@
+body, html {
+    height: 100%;
+    margin: 0;      
+}
+
+#tudo {
+    min-height: 100%;
+    margin-bottom: -100px;      
+} 
+
+.icones_social {
+    position: absolute; 
+    right: 5%;
+    top: 105px;
+    color: #069;
+}
+
+
+.icones_social i {
+    margin-left: 10px;
+    font-size: 30px;
+}
+
+header .cabecalho {
+    width: 100%; 
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 24px;
+    color: #000080;
+    font-weight: bold;
+    border-bottom: 2px solid #069;    
+}
+
+h2.especif {
+    text-align: center; 
+    text-transform: uppercase;
+    font-size: 40px;
+    margin: 10px 0 0 0;  
+    text-decoration: underline;
+    color: #000; 
+}
+
+
+
+/*  AQUI COMEÇA O CONTEÚDO DO SISTEMA */
+
+section.conteudo {
+    max-width: 90%; 
+    height:240px;
+    margin: 10px auto; 
+    margin-bottom: 5px;
+    /*border: 1px solid red;*/
+}
+
+section.conteudo .icones_materias {
+    width: 100%;  
+    height: 60%;     
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;       
+}
+
+section.conteudo .icones_materias a {
+    text-decoration: none;     
+}
+
+section.conteudo .icones_materias_01 {
+    width: 100%;  
+    height: 65%;     
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;     
+}
+
+section.conteudo .icones_materias_01 a {
+    text-decoration: none;    
+}
+
+/*section.conteudo .icones_materias i {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase; 
+    cursor: pointer;   
+    width: 15%;     
+}*/
+
+section.conteudo .icones_materias a {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase; 
+    cursor: pointer;   
+    width: 15%;     
+}
+
+/*section.conteudo .icones_materias_01 i {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase; 
+    cursor: pointer;
+    width: 15%;     
+}*/
+
+section.conteudo .icones_materias_01 a {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase; 
+    cursor: pointer;
+    width: 15%;     
+}
+
+section.conteudo .icones_materias a p {
+    font-size: 25px;
+    margin: 0; 
+    margin-top: 8px;     
+}
+
+section.conteudo .icones_materias_01 p {
+    font-size: 20px;
+    margin: 0; 
+    margin-top: 8px;     
+}
+
+/*Matemática*/
+section.conteudo .fa-calculator {
+    /*color: #000080;*/
+    color: #000;              
+}
+
+/*Letras*/
+section.conteudo .fa-book {
+    /*color: #483D8B;*/
+    color: #000;
+}
+
+/*Química*/
+section.conteudo .fa-flask {
+    /*color: #daa520;*/
+    color: #000;
+}
+
+/*Educação física*/
+section.conteudo .fa-futbol-o {
+    /*color: #008000;*/
+    color: #000;
+}
+
+/*Geografia*/
+section.conteudo .fa-globe {
+    color: #000;
+}
+
+/*Ciências Sociais*/
+section.conteudo .fa-heartbeat {
+    color: #000;
+}
+
+/*Biologia*/
+section.conteudo .fa-globe {
+    color: #000;
+}
+
+/*Filosofia*/
+section.conteudo .fa-ravelry {
+    color: #000;
+}
+
+/*Pedagogia*/
+section.conteudo .fa-viadeo-square {
+    color: #000;
+}
+
+/*Pedagogia*/
+section.conteudo .fa-heartbeat {
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*Matemática*/
+section.conteudo .fa-calculator:hover {
+    color: #fff;
+    /*border: 1px solid #069;   
+    background-color: #069;*/
+    border: 1px solid #000;   
+    background-color: #000;       
+}
+
+/*Letras*/
+section.conteudo .fa-book:hover {
+    color: #fff;
+    /*border: 1px solid #483d8b;
+    background-color: #483d8b;*/
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*Química*/
+section.conteudo .fa-flask:hover {
+    color: #fff;
+   /* border: 1px solid #daa520; 
+    background-color: #daa520;*/
+    border: 1px solid #000; 
+    background-color: #000;
+}
+
+/*Educação física*/
+section.conteudo .fa-futbol-o:hover {
+    color: #fff;
+    /*border: 1px solid #008000;
+    background-color: #008000;*/
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*Enfermagem*/
+section.conteudo .fa-heartbeat:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*Geografia*/
+section.conteudo .fa-globe:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*Filosofia*/
+section.conteudo .fa-ravelry:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+/*Pedagogia*/
+section.conteudo .fa-viadeo-square:hover {
+    color: #fff;
+    border: 1px solid #000;
+    background-color: #000;
+}
+
+footer {
+    background-color: #069;
+    height: 100px; 
+    text-align: center;      
+}
+
+
+
+footer .coordenacao {        
+    color: #fff; 
+    padding: 2px;     
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    align-items: center;            
+}
+
+
+footer .coordenacao p span {
+    color: #daa520;
+}
+
+.bold {
+    font-weight: ;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+@media (max-width: 1180px) {
+
+    section.conteudo .icones_materias a {
+        font-size: 60px; 
+        padding: 8px 12px 8px 12px
+    }
+
+    section.conteudo .icones_materias_01 a {
+        font-size: 60px; 
+        padding: 8px 12px 8px 12px
+    }
+
+    section.conteudo .icones_materias a p {
+        font-size: 15px;         
+    }
+
+    section.conteudo .icones_materias_01 p {
+        font-size: 15px;         
+    }
+
+    section.conteudo .fa-calculator p {
+        font-size: 25%;      
+    }
+
+    section.conteudo .fa-heartbeat p {
+        font-size: 21%;      
+    }
+
+}
+
+/*@media (max-width: 860px) {
+    
+    section.conteudo .icones_materias a {
+        font-size: 50px; 
+        padding: 4px 6px 4px 6px; 
+    }
+
+    section.conteudo .icones_materias_01 i {
+        font-size: 50px; 
+        padding: 4px 6px 4px 6px; 
+    }
+
+    section.conteudo .icones_materias a p {
+        font-size: 0px;
+    }
+
+    section.conteudo .icones_materias_01 p {
+        font-size: 10px;
+    }
+
+    section.conteudo .fa-calculator p {
+        font-size: 15%;      
+    }
+
+}
+*/
+
+@media (max-width: 700px) {
+
+    body {
+        padding: 8px;
+    }
+
+    .icones_social {
+        top: 145px;
+    }
+
+header .cabecalho {
+    display: block;
+    text-align: center; 
+    height: 180px;
+}
+
+header .cabecalho img {
+    margin: 0; 
+}
+
+header .cabecalho h2 {
+    margin-top: 8;
+    text-align: left; 
+    margin-left: 10%;
+}
+
+h2.especif {
+    margin: 10px 0 10px 0;    
+}
+
+section.conteudo {
+    max-width: 85%; 
+    height: 1600px;
+    margin: 0px auto; 
+    margin-bottom: 3px;
+    display: flex;
+    flex-direction: column;  
+    /*border: 1px solid #000;*/    
+}
+
+section.conteudo .icones_materias {
+    flex-direction: column;   
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+section.conteudo .icones_materias_01 {
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;  
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+section.conteudo .icones_materias a {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase;  
+    width: 220px;
+    margin: 8px 0;
+}
+
+section.conteudo .icones_materias_01 a {
+    font-size: 80px; 
+    border: 1px solid #000; 
+    text-align: center; 
+    padding: 12px 24px 12px 24px;  
+    text-transform: uppercase;  
+    width: 220px;
+    margin: 8px 0; 
+}
+
+section.conteudo .icones_materias a p {
+    font-size: 25px;
+    margin: 0; 
+    margin-top: 8px;     
+}
+
+section.conteudo .icones_materias_01 p {
+    font-size: 25px;
+    margin: 0; 
+    margin-top: 8px;     
+}
+
+/*section.conteudo {
+    width:100%;
+    height: 1600px;  
+    border: 1px solid #000;    
+}*/
+
+footer {
+    height: 150px;
+}
+
+footer .coordenacao {
+    display: block;
+    margin-top: 110px;
+}
+
+}
+
