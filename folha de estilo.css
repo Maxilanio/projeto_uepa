@@ -39,7 +39,6 @@ h2.especif {
     font-size: 40px;
     margin: 10px 0 0 0;  
     text-decoration: underline;
-    color: #000; 
 }
 
 
@@ -60,11 +59,8 @@ section.conteudo .icones_materias {
     display: flex; 
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;       
-}
-
-section.conteudo .icones_materias a {
-    text-decoration: none;     
+    align-items: center;   
+     
 }
 
 section.conteudo .icones_materias_01 {
@@ -74,10 +70,6 @@ section.conteudo .icones_materias_01 {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;     
-}
-
-section.conteudo .icones_materias_01 a {
-    text-decoration: none;    
 }
 
 /*section.conteudo .icones_materias i {
@@ -100,17 +92,7 @@ section.conteudo .icones_materias a {
     width: 15%;     
 }
 
-/*section.conteudo .icones_materias_01 i {
-    font-size: 80px; 
-    border: 1px solid #000; 
-    text-align: center; 
-    padding: 12px 24px 12px 24px;  
-    text-transform: uppercase; 
-    cursor: pointer;
-    width: 15%;     
-}*/
-
-section.conteudo .icones_materias_01 a {
+section.conteudo .icones_materias_01 i {
     font-size: 80px; 
     border: 1px solid #000; 
     text-align: center; 
@@ -119,6 +101,8 @@ section.conteudo .icones_materias_01 a {
     cursor: pointer;
     width: 15%;     
 }
+
+
 
 section.conteudo .icones_materias a p {
     font-size: 25px;
@@ -134,102 +118,50 @@ section.conteudo .icones_materias_01 p {
 
 /*Matemática*/
 section.conteudo .fa-calculator {
-    /*color: #000080;*/
-    color: #000;              
+    color: #000080;          
 }
 
 /*Letras*/
 section.conteudo .fa-book {
-    /*color: #483D8B;*/
-    color: #000;
+    color: #483D8B;
 }
 
 /*Química*/
 section.conteudo .fa-flask {
-    /*color: #daa520;*/
-    color: #000;
+    color: #daa520;
 }
 
 /*Educação física*/
 section.conteudo .fa-futbol-o {
-    /*color: #008000;*/
-    color: #000;
+    color: #008000;
 }
-
-/*Geografia*/
-section.conteudo .fa-globe {
-    color: #000;
-}
-
-/*Ciências Sociais*/
-section.conteudo .fa-heartbeat {
-    color: #000;
-}
-
-/*Biologia*/
-section.conteudo .fa-globe {
-    color: #000;
-}
-
-/*Filosofia*/
-section.conteudo .fa-ravelry {
-    color: #000;
-}
-
-/*Pedagogia*/
-section.conteudo .fa-viadeo-square {
-    color: #000;
-}
-
-/*Pedagogia*/
-section.conteudo .fa-heartbeat {
-    color: #000;
-}
-
-
-
-
-
-
-
-
-
-
 
 /*Matemática*/
 section.conteudo .fa-calculator:hover {
     color: #fff;
-    /*border: 1px solid #069;   
-    background-color: #069;*/
-    border: 1px solid #000;   
-    background-color: #000;       
+    border: 1px solid #069;   
+    background-color: #069;     
 }
 
 /*Letras*/
 section.conteudo .fa-book:hover {
     color: #fff;
-    /*border: 1px solid #483d8b;
-    background-color: #483d8b;*/
-    border: 1px solid #000;
-    background-color: #000;
+    border: 1px solid #483d8b;
+    background-color: #483d8b;
 }
 
 /*Química*/
 section.conteudo .fa-flask:hover {
     color: #fff;
-   /* border: 1px solid #daa520; 
-    background-color: #daa520;*/
-    border: 1px solid #000; 
-    background-color: #000;
+    border: 1px solid #daa520; 
+    background-color: #daa520;
 }
 
 /*Educação física*/
 section.conteudo .fa-futbol-o:hover {
     color: #fff;
-    /*border: 1px solid #008000;
-    background-color: #008000;*/
-    border: 1px solid #000;
-    background-color: #000;
+    border: 1px solid #008000;
+    background-color: #008000;
 }
 
 /*Enfermagem*/
@@ -300,7 +232,7 @@ footer .coordenacao p span {
         padding: 8px 12px 8px 12px
     }
 
-    section.conteudo .icones_materias_01 a {
+    section.conteudo .icones_materias_01 i {
         font-size: 60px; 
         padding: 8px 12px 8px 12px
     }
@@ -315,10 +247,6 @@ footer .coordenacao p span {
 
     section.conteudo .fa-calculator p {
         font-size: 25%;      
-    }
-
-    section.conteudo .fa-heartbeat p {
-        font-size: 21%;      
     }
 
 }
@@ -353,12 +281,20 @@ footer .coordenacao p span {
 @media (max-width: 700px) {
 
     body {
-        padding: 8px;
+        padding: 190px 8px 0 8px;
     }
 
     .icones_social {
+        position: fixed;
         top: 145px;
+        z-index: 1;
     }
+header {
+    position: fixed;
+    width: 100%; 
+    background-color: #fff;
+    top: 0;
+}
 
 header .cabecalho {
     display: block;
@@ -416,7 +352,7 @@ section.conteudo .icones_materias a {
     margin: 8px 0;
 }
 
-section.conteudo .icones_materias_01 a {
+section.conteudo .icones_materias_01 i {
     font-size: 80px; 
     border: 1px solid #000; 
     text-align: center; 
